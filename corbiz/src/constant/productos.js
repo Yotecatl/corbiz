@@ -1,10 +1,10 @@
 const productos = [
     {
       "productId": 1,
-      "productName": "SAPATO FLOATER PRETO",
+      "productName": "ZAPATO FLOATER PRETO",
       "stars": 1,
       "imageUrl": "https://corebiz-test.herokuapp.com/images/product-1.png",
-      "listPrice": null,
+      "listPrice": 40000,
       "price": 25990,
       "installments": [
         {
@@ -46,7 +46,7 @@ const productos = [
       "productName": "CINTO SEMICROMO PRETO 40MM",
       "stars": 3,
       "imageUrl": "https://corebiz-test.herokuapp.com/images/product-4.png",
-      "listPrice": null,
+      "listPrice": 4000,
       "price": 7990,
       "installments": []
     }

@@ -10,6 +10,11 @@ export default function Product({product}){
     return (
         <div className={style.product}>
             <img src={imageUrl} className={style.image} />
+            <p className={style.name}>{productName}</p>
+            <p className={style.stars}>stars: {stars}</p>
+            <p className={style.listPrice}>de $ {listPrice}</p>
+            <p className={style.price}>por $ {price}</p>
+            <button className={style.button}>COMPAR</button>
         </div>
     );
 }
